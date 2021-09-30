@@ -1,0 +1,14 @@
+{
+  "name": "kross-iam-sdk",
+  "version": "0.0.1",
+  "description": "Client SDK for Kross IAM",
+  "main": "index.js",
+  "author": "krossdev<krossdevelop@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "generator": "openapi-generator-cli",
+  },
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.4.4"
+  }
+}

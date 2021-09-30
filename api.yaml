@@ -1,0 +1,33 @@
+openapi: 3.0.0
+info:
+  version: 0.0.1
+  title: Kross IAM Client API
+  description: Kross IAM Client API definition
+  license:
+    name: GPL-3.0
+    url: 'https://www.gnu.org/licenses/gpl-3.0.html'
+  contact:
+    name: '@krossdev'
+    email: krossdevelop@gmail.com
+    url: 'https://github.com/krossdev'
+paths:
+  /realm/:
+    get:
+      description: Ping
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+              examples: {}
+      operationId: ''
+      summary: ''
+      x-internal: false
+servers:
+  - url: 'http://localhost'
+    description: DEV
